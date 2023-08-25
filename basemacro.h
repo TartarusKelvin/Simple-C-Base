@@ -6,7 +6,7 @@
 #include<stddef.h>
 typedef size_t SZt;
 typedef void Vt;
-typedef char Ct;
+typedef unsigned char Ct;
 typedef int It;
 #define C const 
 #define SIZE sizeof

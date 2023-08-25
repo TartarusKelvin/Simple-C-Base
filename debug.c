@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 Vt hexDump(C Ct*d,C Vt*a,C It l,It p){
- if(p<4||p>64)p=16;unsigned char b[p+1];
- const unsigned Ct*pc=(const unsigned Ct*)a;
+ if(p<4||p>64)p=16;Ct b[p+1];
+ C Ct*pc=(C Ct*)a;
  if(d!=NULL)O("%s:\n",d);
  if(l<=0)R;It i=0;
  while(i<l){
